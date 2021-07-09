@@ -1,2 +1,6 @@
 # Customer-Review-Clustering-using-TF-IDF-and-K-means
-Clustering text data from yelp using TF-IDF and K-means clustering. Visualized using T-SNE.
+One of the greatest assets for continuing improvement of a business is customer reviews. For example, reviews can help acknowledge the successes of the business while illuminating areas of potential development. The task is easy when there are few reviews. However when there are many reviews and many more continuously being submittted, this becomes a seemingly insurmountable task. This is where automation and machine learning is crucial.
+
+Our goal for this project is to take all reviews availible on yelp and cluster these customers into like-minded groups. From there, we will condense their reviews into significant information for quick analysis. Using the significant information, the most impactful issues are highlighted and business improvement plans can be developed.
+
+Here we will utilize BeautifulSoup's webscraping capabilities to gather all reviews for subsequent analysis. The reviews will be preprocessed to reduce noise within the data. The processed data will be converted to comparable numerical quantities using the TF-IDF algorithm. These numerical quantities will be clustered using the K-means algorithm. Lastly, the results will be presented using seaborn's plotting prowess and by displaying top keywords within each cluster.
